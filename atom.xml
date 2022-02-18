@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wu3088749378.github.io</id>
     <title>Gridea</title>
-    <updated>2022-02-18T09:00:13.170Z</updated>
+    <updated>2022-02-18T09:03:56.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wu3088749378.github.io"/>
     <link rel="self" href="https://wu3088749378.github.io/atom.xml"/>
@@ -20,9 +20,40 @@
 <pre><code class="language-php">&lt;?php
  echo &quot;hello word!&quot;;
 ?&gt;
-*** 粗***
-`标注`</code></pre>
-]]></content>
+</code></pre>
+<p><strong>粗字体</strong><br>
+<code>标注nice</code></p>
+<h3 id="git-操作">Git 操作</h3>
+<pre><code class="language-shell">git clone https://test.github.
+
+git init
+
+git config --list
+
+git branch tius
+
+git mergea
+
+git checkout
+</code></pre>
+<h3 id="workspace工作区indexstage暂存区-repository仓库区或本地仓库-remote远程仓库p">Workspace：工作区；Index/Stage：暂存区；   Repository：仓库区(或本地仓库)  Remote：远程仓库</p></h3>
+<p><strong>新建代码仓库</strong></p>
+<p>在当前目录新建一个Git代码库<br>git init</p>
+<p>新建一个目录，将其初始化为Git代码库<br>git init [project-name]</p>
+<p>下载一个项目和它的整个代码历史<br>git clone [url]</p>
+<code>如果想要成功克隆，当前目录必须得是一个git仓库</code>
+<h3>配置Git</h3>
+<p>Git的设置文件为<mark>.gitconfig</mark>，它可以在用户目录下(全局配置)，也可以在项目目录下(项目配置)</p>
+<p>显示当前的Git配置<br>git config --list</p>
+<p>编辑Git配置文件<br>git config -e [--global]</p>
+<p>设置提交代码时的用户信息<br>git config [--global] user.name "[name]"<br>git config [--global] user.email "[email address]"</p>
+<h3>文件添加到暂存区</h3>
+<p>添加指定文件到暂存区<br>git add [file1] [file2] ...</p>
+<p>添加指定目录到暂存区，包括子目录，目录中不能为空，必须要有文件<br>git add [dir]</p>
+<code>添加每个变化前，都会要求确认</code>
+<p>对于同一个文件的多处变化，可以实现分次提交<br>git add p</p>
+<p>删除工作区文件，并且将这次删除放入暂存区<br>git rm [file1] [file2] ...</p>
+<code>已经添加到仓库的文件可以删除，工作区不显示</code>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ Git操作指令 ]]></title>
