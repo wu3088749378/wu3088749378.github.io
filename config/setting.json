@@ -1,0 +1,27 @@
+{
+  "config": {
+    "branch": "master",
+    "domain": "https://wu3088749378.github.io",
+    "email": "3088749378@qq.com",
+    "platform": "github",
+    "privateKey": "",
+    "repository": "wu3088749378.github.io",
+    "token": "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",
+    "username": "wu3088749378"
+  },
+  "comment": {
+    "commentPlatform": "gitalk",
+    "disqusSetting": {
+      "api": "",
+      "apikey": "",
+      "shortname": ""
+    },
+    "gitalkSetting": {
+      "clientId": "",
+      "clientSecret": "",
+      "owner": "",
+      "repository": ""
+    },
+    "showComment": true
+  }
+}
