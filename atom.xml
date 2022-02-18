@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wu3088749378.github.io</id>
+    <title>Gridea</title>
+    <updated>2022-02-18T07:47:27.421Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wu3088749378.github.io"/>
+    <link rel="self" href="https://wu3088749378.github.io/atom.xml"/>
+    <subtitle>路在脚下</subtitle>
+    <logo>https://wu3088749378.github.io/images/avatar.png</logo>
+    <icon>https://wu3088749378.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[ Git操作指令 ]]></title>
+        <id>https://wu3088749378.github.io/post/test/</id>
+        <link href="https://wu3088749378.github.io/post/test/">
+        </link>
+        <updated>2022-02-18T01:31:08.000Z</updated>
+        <content type="html"><![CDATA[<div class="demo">
+<style>
+    .demo{
+        width:700px;
+        heigth:100%;
+        margin:0 auto;
+        padding:0;
+        background-image:url(https://tse1-mm.cn.bing.net/th/id/R-C.350e884cdb67ba634bcc2bc272d20115?rik=6nZfydRn9R3tXw&riu=http%3a%2f%2fwww.tupian1.cn%2fuploads%2fallimg%2f160907%2f1-160ZH24026.gif&ehk=1viW%2fPwW9WqUaCIZPK2Eh8oXUzzse6YbQgWNGbfji60%3d&risl=&pid=ImgRaw&r=0);
+        text-algin:center;
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+    h3{
+        color:blue;
+    }
+</style>
+<h2>Git</h2>
+<p style="color:red">Workspace：工作区；&nbsp;&nbsp;Index/Stage：暂存区；&nbsp;&nbsp; Repository：仓库区(或本地仓库)&nbsp;&nbsp;Remote：远程仓库</p>
+<h3>新建代码仓库</h3>
+<p>在当前目录新建一个Git代码库<br>git init</p>
+<p>新建一个目录，将其初始化为Git代码库<br>git init [project-name]</p>
+<p>下载一个项目和它的整个代码历史<br>git clone [url]</p>
+<code>如果想要成功克隆，当前目录必须得是一个git仓库</code>
+<h3>配置Git</h3>
+<p>Git的设置文件为<mark>.gitconfig</mark>，它可以在用户目录下(全局配置)，也可以在项目目录下(项目配置)</p>
+<p>显示当前的Git配置<br>git config --list</p>
+<p>编辑Git配置文件<br>git config -e [--global]</p>
+<p>设置提交代码时的用户信息<br>git config [--global] user.name "[name]"<br>git config [--global] user.email "[email address]"</p>
+<h3>文件添加到暂存区</h3>
+<p>添加指定文件到暂存区<br>git add [file1] [file2] ...</p>
+<p>添加指定目录到暂存区，包括子目录，目录中不能为空，必须要有文件<br>git add [dir]</p>
+<code>添加每个变化前，都会要求确认</code>
+<p>对于同一个文件的多处变化，可以实现分次提交<br>git add p</p>
+<p>删除工作区文件，并且将这次删除放入暂存区<br>git rm [file1] [file2] ...</p>
+<code>已经添加到仓库的文件可以删除，工作区不显示</code>
+</div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://wu3088749378.github.io/post/hello-gridea/</id>
+        <link href="https://wu3088749378.github.io/post/hello-gridea/">
+        </link>
+        <updated>2022-02-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
